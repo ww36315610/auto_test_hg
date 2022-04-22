@@ -2,8 +2,15 @@ package com.hg.auto.junit4;
 
 import org.junit.*;
 
-public class Junit4_OneTest {
-
+public class Junit4One {
+    /**
+     * BeforeClass
+     * Before
+     * Test
+     * After
+     * AfterClass
+     * @Ignore = 过滤不执行
+     */
     @BeforeClass
     public static void beforeClass() {
         System.out.println("Junit4_OneTest.beforeClass");
