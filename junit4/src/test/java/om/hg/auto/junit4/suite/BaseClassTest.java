@@ -1,4 +1,4 @@
-package om.hg.auto.junit4.suit;
+package om.hg.auto.junit4.suite;
 
 import java.util.HashMap;
 
