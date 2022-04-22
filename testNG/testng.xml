@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suit001">
+    <test name="test001">
+        <groups>
+            <run>
+                <include name="group01"></include>
+                <exclude name="group02"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.hg.auto.testng.TestNGGroupDemoTest"></class>
+            <class name="com.hg.auto.testng.TestNGThreadTest"></class>
+        </classes>
+    </test>
+</suite>
