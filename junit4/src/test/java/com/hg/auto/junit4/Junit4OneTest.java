@@ -10,8 +10,12 @@ public class Junit4OneTest {
      * Test
      * After
      * AfterClass
+     *
      * @Ignore = 过滤不执行
+     * mvn clean test
+     * mvn clean -Dtest=com.hg.auto.junit4.Junit4OneTest test
      */
+    // beforeClass必须=static
     @BeforeClass
     public static void beforeClass() {
         System.out.println("Junit4_OneTest.beforeClass1");

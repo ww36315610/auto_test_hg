@@ -9,6 +9,7 @@ public class Junit4One {
      * Test
      * After
      * AfterClass
+     *
      * @Ignore = 过滤不执行
      */
     @BeforeClass
